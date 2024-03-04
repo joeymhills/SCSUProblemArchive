@@ -19,7 +19,7 @@ export default function Home() {
         </p>
         <div className="flex gap-2">
           <Link
-            href={siteConfig.links.submit}
+            href={siteConfig.links.form}
             target="_blank"
             className={cn(buttonVariants({ size: "default" }))}
           >
