@@ -10,6 +10,7 @@ export type SiteConfig = {
   links: {
     github: string
     form: string
+    submit: string
   }
   ogImage: string
 }
