@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <main className="flex h-screen items-center justify-center">
       <div className="container flex max-w-[64rem] flex-col items-center gap-4 text-center">
-        <Icons.container className="h-32 w-32" />
+        <Icons.archive className="h-32 w-32" />
         <h1 className="text-4xl font-semibold sm:text-5xl md:text-6xl lg:text-7xl">
           {siteConfig.name}
         </h1>
