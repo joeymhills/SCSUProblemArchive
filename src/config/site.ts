@@ -15,7 +15,8 @@ export const siteConfig: SiteConfig = {
   links: {
     github: "https://github.com/joeymhills",
     form:`${env.NEXT_PUBLIC_APP_URL}/form`,
-    submit:`${env.NEXT_PUBLIC_APP_URL}/submit`
+    submit:`${env.NEXT_PUBLIC_APP_URL}/submit`,
+    bipartite:`${env.NEXT_PUBLIC_APP_URL}/bipartite`
   },
   ogImage: `${env.NEXT_PUBLIC_APP_URL}/og.jpg`,
 }

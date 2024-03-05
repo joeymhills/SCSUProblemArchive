@@ -11,6 +11,7 @@ export type SiteConfig = {
     github: string
     form: string
     submit: string
+    bipartite: string
   }
   ogImage: string
 }
