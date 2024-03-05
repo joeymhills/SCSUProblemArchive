@@ -83,7 +83,7 @@ export default function Submit() {
             rows={25} // Adjust this as needed
             cols={50} // Adjust this as needed
           ></Textarea>
-          <Button onClick= {() => submitCode(submission)} >Submit</Button>
+          <Button className = "my-2 mb-16" onClick= {() => submitCode(submission)} >Submit</Button>
 
         </div>
       </div>
