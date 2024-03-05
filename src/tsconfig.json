@@ -16,9 +16,6 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
-    "rules": {
-       "react/no-unescaped-entities": "off" 
-    },
     "plugins": [
       {
         "name": "next"

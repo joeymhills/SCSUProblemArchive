@@ -65,7 +65,7 @@ export default function Submit() {
         <p className="max-w-[38rem] leading-normal text-muted-foreground sm:text-3xl sm:leading-8">
           Output:
 
-          Write "bipartite" if the given graph is bipartite, "not bipartite" if not
+          Write 'bipartite' if the given graph is bipartite, 'not bipartite' if not
         </p>
 
         <p className="max-w-[38rem] leading-normal text-muted-foreground sm:text-3xl sm:leading-8">
