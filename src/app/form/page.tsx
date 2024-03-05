@@ -11,7 +11,7 @@ export default function Submit() {
   
   //handles submission text state and the functino for modifying it
   const [submission, setSubmission] = useState(null);
-  const handleSubmissionChange = (event) => {
+  const handleSubmissionChange = (event: React.ChangeEvent<HTMLTextAreaElement>) => {
       setSubmission(event.target.value);
   };
   
