@@ -36,34 +36,32 @@ export default function Submit() {
         {/* problem description */}
         <p className="max-w-[38rem] leading-normal text-muted-foreground sm:text-3xl sm:leading-8">
           A bipartite graph is a graph where the vertices can be partitioned in two sets where any edge has an vert in A and a vert in B. Saying it another way, if two verts are in A there cannot be an edge between them and the same is true for B.
-          Give a graph with the following inpuit, determine if it is bipartite:
+          Give a graph with the following input, determine if it is bipartite:
 
         </p>
         
         {/* sample input */}
 
         <p className="max-w-[38rem] leading-normal text-muted-foreground sm:text-3xl sm:leading-8">
-          Input:
+          Input:<br/>
 
           The first line of input contains two integers 
-          V E, where 
-           V is the number of vertices and 
-           E is the number of edges. 
+          V E, where V is the number of vertices and E is the number of edges.<br/>
 
-          The following E lines, each containing a pair of vertices meaning there is an edge between those verts.
+          The following E lines, each containing a pair of vertices meaning there is an edge between those verts.<br/>
 
-          Example
+          Example<br/>
 
-          4 3
-          1 2 
-          2 4
-          3 4
+          4 3<br/>
+          1 2<br/>
+          2 4<br/>
+          3 4<br/>
 
           means a graph that looks like (see below)
           </p>
         {/*Sample output*/}
         <p className="max-w-[38rem] leading-normal text-muted-foreground sm:text-3xl sm:leading-8">
-          Output:
+          Output:<br/>
 
           Write 'bipartite' if the given graph is bipartite, 'not bipartite' if not
         </p>
