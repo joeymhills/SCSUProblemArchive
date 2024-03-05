@@ -52,8 +52,34 @@ export async function POST(request: NextRequest) {
 2 1
 1 4`,"not bipartite");
 
+    solutionsMap.set(`3 3
+1 3
+4 3
+1 4`,"not bipartite");
+
     solutionsMap.set(`2 1
 1 2`,"bipartite");
+
+    solutionsMap.set(`9 8
+1 6
+3 6
+1 9
+3 7
+2 8
+4 8
+4 9
+5 9`,"bipartite");
+
+    solutionsMap.set(`9 8
+1 6
+3 6
+1 9
+3 7
+2 8
+4 8
+4 9
+5 9
+11 12`,"bipartite");
     const solution = await checkSolutions(solutionsMap, pythonCode);
     return NextResponse.json({ result: solution }, { status: 200 });
 }
